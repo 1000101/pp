@@ -19,7 +19,7 @@
 
 = Introduction
 
-#customquote["_Interesting_"]
+#customquote["_Interesting_"@book1[p.123]]
 
 #lorem(100)
 
@@ -31,27 +31,32 @@
 = Chapter I
 
 #lorem(50)
+#quote[#lorem(3)]@article1[p.1]
 
-#lorem(100)
-
-#lorem(100)
+#lorem(50)
+#quote[#lorem(10)]@article1[p.2]
+#lorem(10)
+#quote[#lorem(5)]@article1[p.4]
 
 = Chapter II
 
-#lorem(100)
+#lorem(50)
 
-#lorem(100)
+#lorem(50)
+#footnote[footnote]
 
-#lorem(100)
+#lorem(50)
+#quote[#lorem(5)]@article1[p.1]
 
 #pagebreak()
 
 
 = Conclusion
 
-#customquote[_#lorem(10)_]
+#customquote[_#lorem(10)_@book1[p.321]]
 
-#lorem(100)
+#lorem(20)
+#lorem(10)
 
 #lorem(100)
 
