@@ -29,8 +29,10 @@
   )
 
   set footnote.entry(
-    indent: 2em,
+    //indent: 2em
+    indent: 0em, // no indent of footnotes - not standard, but I like it a lot - hotter than hot
   )
+
 
   place(
     top + left,
