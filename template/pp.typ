@@ -6,9 +6,12 @@
   author: [],
   abstract: [],
   abstract_title:[Abstract],
+  language: "en",
   date: datetime.today().display("[day].[month].[year]"),
   doc,
 ) = {
+  let lang = language;
+
   show heading.where(level: 1): set block(above: 2em, below: 1em)
 
   set smartquote(enabled: true)
@@ -20,7 +23,7 @@
 
   set text(
      font: "Latin Modern Roman",
-     lang: "en",
+     lang: lang,
      size: 12pt,
   )
 

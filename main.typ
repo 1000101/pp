@@ -8,6 +8,7 @@
   author:[Stud Ent],
   abstract_title:[Abstract],
   abstract:lorem(80),
+  //language: "sk", // if not specified, then en will be used, possible: "en", "fr", "cs", "sk", ...
   //date:[] // if not specified, then current date will be used, use blank to blank out
 )
 
