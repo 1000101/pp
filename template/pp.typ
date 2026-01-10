@@ -108,12 +108,12 @@
       block(below: 1.5em, par()[
         *#abstract_title*
       ])
-
-      block( align(left, par(justify: true)[
-        #abstract
-      ]))
     },
   )
+
+  block( align(left, par(justify: true)[
+    #abstract
+  ]))
 
   pagebreak()
 
